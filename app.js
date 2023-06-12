@@ -61,7 +61,7 @@ function createRandomCircle() {
     circle.style.background = color;
     circle.style.boxShadow = `0 0 4px ${color}, 0 0 17px ${color}`
     // рандомный размер
-    let size = getRandomNumber(10, 50);
+    let size = getRandomNumber(30, 50);
     // рандомная позиция
     let {width, height} = board.getBoundingClientRect()
     let x = getRandomNumber(0, width - size);

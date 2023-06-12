@@ -61,7 +61,7 @@ function createRandomCircle() {
     circle.style.background = color;
     circle.style.boxShadow = `0 0 4px ${color}, 0 0 17px ${color}`
     // рандомный размер
-    let size = getRandomNumber(10, 60);
+    let size = getRandomNumber(10, 50);
     // рандомная позиция
     let {width, height} = board.getBoundingClientRect()
     let x = getRandomNumber(0, width - size);
@@ -92,7 +92,7 @@ function finishGame() {
     timeEl.parentNode.classList.add('hide');
     board.innerHTML = `
     <div>
-    <h1>Счет: <span class="primary">${score}</span></h1>
+    <h1 class="screen-title">Счет: <span class="primary">${score}</span></h1>
     <a href="#" class="restart" id="restart">Играть снова</a>
     </div>
     `

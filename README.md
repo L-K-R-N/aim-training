@@ -1,3 +1,3 @@
 # aim-training
 
-[https://eptaaaaaaaa.github.io/aim-training/](## Играть)
+## [Играть](https://eptaaaaaaaa.github.io/aim-training/)
